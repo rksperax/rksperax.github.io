@@ -167,6 +167,12 @@ section {
   gap: 1rem;
 }
 
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;
